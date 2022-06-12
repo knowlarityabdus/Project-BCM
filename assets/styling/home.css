@@ -1,0 +1,151 @@
+body {
+    background: #F6F6F7;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+header .content-container {
+    margin: auto 80px;
+    height: 100%;
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .content-container .navbar {
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 80px 80px 300px;
+    height: 100%;
+}
+
+header .content-container .navbar .navbar-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #F0F0F1;
+    border-right: 2px solid #F0F0F1;
+    width: 100%;
+}
+
+header .content-container .navbar .navbar-box .user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+header .content-container .navbar .navbar-box .user-info p {
+    margin: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F3C4C;
+}
+
+.content-container {
+    margin: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container .intro-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-container .intro-container h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-container .intro-container p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #C2C9D1;
+    display: flex;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.content-container .box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-container .box-container .box {
+    width: 402px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.content-container .box-container .box div {
+    width: 83%;
+    height: 1px;
+    border: 1px solid #3F3D56;
+    /* background: #3F3D56; */
+}
+
+.content-container .box-container .box .red-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #F03738;
+    margin: 20px auto 0 20px;
+}
+
+.content-container .box-container .box .normal-txt {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.29);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.nav-link {
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background: #3E66FB;
+    border-radius: 100px;
+    padding: 15px 35px;
+    margin: 50px;
+    border: 0;
+}
+
+a:hover {
+    cursor: pointer;
+}
